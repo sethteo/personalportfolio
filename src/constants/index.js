@@ -1,8 +1,11 @@
+import { AlwaysStencilFunc } from "three";
 import {
     mobile,
     backend,
     creator,
     web,
+
+    java,
     javascript,
     html,
     css,
@@ -10,13 +13,14 @@ import {
     nodejs,
     mongodb,
     git,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
+    python,
+    mysql,
+
+    nus,
     jobit,
     tripguide,
+    acs,
+    orbital
   } from "../assets";
   
   export const navLinks = [
@@ -63,8 +67,16 @@ import {
       icon: css,
     },
     {
+      name: "Java",
+      icon: java,
+    },
+    {
       name: "JavaScript",
       icon: javascript,
+    },
+    {
+      name: "Python",
+      icon: python,
     },
     {
       name: "React JS",
@@ -79,6 +91,10 @@ import {
       icon: mongodb,
     },
     {
+      name: "MySQL",
+      icon: mysql,
+    },
+    {
       name: "git",
       icon: git,
     }
@@ -88,42 +104,32 @@ import {
     {
       title: "A Levels",
       company_name: "Anglo Chinese Junior College",
-      icon: starbucks,
+      icon: acs,
       iconBg: "#383E56",
       date: "Jan 2018 - Oct 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Attained distinctions in",
+        "H2 Mathematics",
+        "H1 Economics",
+        "H1 General Paper",
+        "H1 Project Work",
       ],
     },
     {
       title: "Bachelor in Computing",
       company_name: "National University of Singapore",
-      icon: tesla,
-      iconBg: "#E6DEDD",
+      icon: nus,
+      iconBg: "#383E56",
       date: "Aug 2022 -  Aug 2026",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Current CGPA: 4.6875",
+        "Notable modules taken:",
+        "CS2030 Programming Methodology II | Grade A-",
+        "BT2102 Data Management and Visualisation | Grade A-",
+        "CS1010J Programming Methodology I | Grade A-",
+        "BT1101 Introduction to Business Analytics | Grade A-",
       ],
     },
-    // {
-    //   title: "Web Developer",
-    //   company_name: "Shopify",
-    //   icon: shopify,
-    //   iconBg: "#383E56",
-    //   date: "Jan 2022 - Jan 2023",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
   ];
   
   const testimonials = [
@@ -156,49 +162,28 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: orbital,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "TBA",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "To be added"  ,
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
+        // {
+        //   name: "nextjs",
+        //   color: "blue-text-gradient",
+        // },
+        // {
+        //   name: "supabase",
+        //   color: "green-text-gradient",
+        // },
+        // {
+        //   name: "css",
+        //   color: "pink-text-gradient",
+        // },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
+      // image: tripguide,
       source_code_link: "https://github.com/",
     },
   ];

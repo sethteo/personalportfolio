@@ -7,18 +7,16 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc'; 
 import { slideIn } from '../utils/motion';
 
+import {
+
+  instagram,
+  linkedin,
+  githublogo,
+  email,
+
+} from "../assets";
+
 const Contact = () => {
-  const formRef= useRef();
-  const [form, setForm] = useState({
-    name: '',
-    email: '',
-    message: '',
-  });
-  const [loading, setLoading] = useState(false);
-
-  const handleChange = (e) => {};
-
-  const handleSubmit = (e) => {};
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
@@ -28,6 +26,43 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+
+        <div className='flex items-center w-1/2 h-1/2'>
+          
+          <div className='w-10 h-10 p-2'>
+            <img src={linkedin} alt="linkedin" className='object-contain'/>
+          </div>
+          <a href='https://www.linkedin.com/in/hongruiteo/'>LinkedIn</a>
+
+        </div>
+        
+        <div className='flex items-center w-1/2 h-1/2'>
+          
+          <div className='w-10 h-10 p-2'>
+            <img src={instagram} alt="instagram" className='object-contain'/>
+          </div>
+          <a href='https://www.instagram.com/hoongruii/'>Instagram</a>
+
+        </div>
+
+        <div className='flex items-center w-1/2 h-1/2'>
+          
+          <div className='w-10 h-10 p-2'>
+            <img src={githublogo} alt="github" className='object-contain'/>
+          </div>
+          <a href='https://github.com/sethteo'>Github</a>
+
+        </div>
+
+        <div className='flex items-center w-1/2 h-1/2'>
+          
+          <div className='w-10 h-10 p-2'>
+            <img src={email} alt="github" className='object-contain'/>
+          </div>
+          <a href="mailto: e0957708@u.nus.edu">Email me</a>
+
+        </div>
+        
       </motion.div>
 
       <motion.div
