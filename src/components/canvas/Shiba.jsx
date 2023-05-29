@@ -4,15 +4,15 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
-const Earth = () => {
-  const earth = useGLTF("./planet/scene.gltf");
+const Shiba = () => {
+  const shiba = useGLTF("./shiba/scene.gltf");
 
   return (
-    <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
+    <primitive object={shiba.scene} scale={2.5} position-y={0} rotation-y={0} />
   );
 };
 
-const EarthCanvas = () => {
+const ShibaCanvas = () => {
   return (
     <Canvas
       shadows
@@ -33,7 +33,7 @@ const EarthCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-        <Earth />
+        <Shiba />
 
         <Preload all />
       </Suspense>
@@ -41,4 +41,4 @@ const EarthCanvas = () => {
   );
 };
 
-export default EarthCanvas;
+export default ShibaCanvas;
