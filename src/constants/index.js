@@ -20,7 +20,9 @@ import {
     jobit,
     tripguide,
     acs,
-    orbital
+    orbital,
+    eatalreadynot
+
   } from "../assets";
   
   export const navLinks = [
@@ -166,24 +168,24 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "TBA",
+      name: "EatAlreadyNot",
       description:
-        "To be added"  ,
+        "Personal side project which houses food recommendations from users. Website features full CRUD, responsive images, interactive map"  ,
       tags: [
-        // {
-        //   name: "nextjs",
-        //   color: "blue-text-gradient",
-        // },
-        // {
-        //   name: "supabase",
-        //   color: "green-text-gradient",
-        // },
-        // {
-        //   name: "css",
-        //   color: "pink-text-gradient",
-        // },
+        {
+          name: "node.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
       ],
-      // image: tripguide,
+      image: eatalreadynot,
       source_code_link: "https://github.com/",
     },
   ];

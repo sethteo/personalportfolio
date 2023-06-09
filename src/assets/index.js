@@ -24,6 +24,7 @@ import acs from "./company/acs.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import orbital from "./orbital.png"
+import eatalreadynot from "./eatalreadynot.png"
 
 import instagram from './contact/instagram.png'
 import linkedin from './contact/linkedin.png'
@@ -56,6 +57,7 @@ export {
   tripguide,
   acs,
   orbital,
+  eatalreadynot,
 
   instagram,
   linkedin,
