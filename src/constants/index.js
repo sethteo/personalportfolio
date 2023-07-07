@@ -147,7 +147,7 @@ import {
     {
       name: "AlertUs",
       description:
-        "A telegram bot which helps users track the prices of their groceries as well as full integration with web platform.",
+        "A telegram bot which helps users track the prices of their groceries as well as full integration with web platform. Features of the telegram bot include simple prompts with a detailed guide and full CRUD capabilities.",
       tags: [
         {
           name: "python",
@@ -169,7 +169,7 @@ import {
     {
       name: "EatAlreadyNot",
       description:
-        "Personal side project which houses food recommendations from users. Website features full CRUD, responsive images, interactive map"  ,
+        "Personal side project which houses food recommendations from users where users can post locations or leave reviews on posted places. Website features includes full CRUD capabilities, an interactive map, user registration and user authentication/authorisation."  ,
       tags: [
         {
           name: "node.js",
