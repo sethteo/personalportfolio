@@ -17,8 +17,6 @@ import {
     mysql,
 
     nus,
-    jobit,
-    tripguide,
     acs,
     orbital,
     eatalreadynot
@@ -41,22 +39,22 @@ import {
   ];
   
   const services = [
-    {
-      title: "Aspiring Web Developer",
-      icon: web,
-    },
-    {
-      title: "Team Player",
-      icon: mobile,
-    },
-    {
-      title: "Results Driven",
-      icon: backend,
-    },
-    {
-      title: "Problem Solver",
-      icon: creator,
-    },
+    // {
+    //   title: "Aspiring Web Developer",
+    //   icon: web,
+    // },
+    // {
+    //   title: "Team Player",
+    //   icon: mobile,
+    // },
+    // {
+    //   title: "Results Driven",
+    //   icon: backend,
+    // },
+    // {
+    //   title: "Problem Solver",
+    //   icon: creator,
+    // },
   ];
   
   const technologies = [
@@ -124,12 +122,12 @@ import {
       iconBg: "#383E56",
       date: "Aug 2022 -  Aug 2026",
       points: [
-        "Current CGPA: 4.6875",
+        "Current CGPA: 4.69",
         "Notable modules taken:",
-        "CS2030 Programming Methodology II | Grade A-",
-        "BT2102 Data Management and Visualisation | Grade A-",
-        "CS1010J Programming Methodology I | Grade A-",
-        "BT1101 Introduction to Business Analytics | Grade A-",
+        "CS2030 Programming Methodology II",
+        "BT2102 Data Management and Visualisation",
+        "CS1010J Programming Methodology I",
+        "BT1101 Introduction to Business Analytics",
       ],
     },
   ];
@@ -147,7 +145,7 @@ import {
   
   const projects = [
     {
-      name: "Orbital Apollo 11",
+      name: "AlertUs",
       description:
         "A telegram bot which helps users track the prices of their groceries as well as full integration with web platform.",
       tags: [
@@ -166,6 +164,7 @@ import {
       ],
       image: orbital,
       source_code_link: "https://github.com/",
+      video_link: 'https://youtu.be/HoaIgLHGnmI',
     },
     {
       name: "EatAlreadyNot",
@@ -187,6 +186,7 @@ import {
       ],
       image: eatalreadynot,
       source_code_link: "https://github.com/sethteo/eatalreadynot",
+      video_link: 'https://www.youtube.com/watch?v=Po_uEgnDDRo',
     },
   ];
   

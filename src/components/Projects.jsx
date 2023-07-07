@@ -3,7 +3,7 @@ import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, youtube } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  video_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -24,9 +25,9 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-tertiary p-5 rounded-2xl sm:w-[600px] w-full'
       >
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full h-[400px]'>
           <img
             src={image}
             alt='project_image'
@@ -43,13 +44,20 @@ const ProjectCard = ({
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />
+              
             </div>
           </div>
         </div>
+        
 
         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+        </div>
+        <div 
+          onClick={() => window.open(video_link, "_blank")}
+          className='w-10 h-10 rounded-full flex justify-center items-center cursor-pointer mt-2'>
+          <img src={youtube} alt="youtube-link" className='object-contain'/>
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>
@@ -61,8 +69,10 @@ const ProjectCard = ({
               #{tag.name}
             </p>
           ))}
+
         </div>
       </Tilt>
+
     </motion.div>
   );
 };
@@ -70,23 +80,23 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
-      </motion.div>
+      </div>
 
       <div className='w-full flex'>
-        <motion.p
+        <p
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           {/* Change under projects */}
           A showcase of my personal projects which displays my skills and experience
           through the use of real-world examples.
-        </motion.p>
+        </p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 flex gap-7'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

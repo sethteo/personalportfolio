@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import youtube from "./youtube.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -21,8 +22,7 @@ import mysql from "./tech/mysql.png";
 import nus from "./company/nus.png";
 import acs from "./company/acs.png";
 
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
 import orbital from "./orbital.png"
 import eatalreadynot from "./eatalreadynot.png"
 
@@ -38,6 +38,7 @@ export {
   mobile,
   web,
   github,
+  youtube,
   menu,
   close,
 
@@ -53,8 +54,6 @@ export {
   mysql,
 
   nus,
-  jobit,
-  tripguide,
   acs,
   orbital,
   eatalreadynot,
