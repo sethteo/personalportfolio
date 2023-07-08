@@ -19,12 +19,12 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
+      <div
+        // options={{
+        //   max: 45,
+        //   scale: 1,
+        //   speed: 500,
+        // }}
         className='bg-tertiary p-5 rounded-2xl lg:w-[1000px] w-full'
       >
         <div className='relative h-full lg:h-[600px]'>
@@ -71,7 +71,7 @@ const ProjectCard = ({
           ))}
 
         </div>
-      </Tilt>
+      </div>
 
     </motion.div>
   );
