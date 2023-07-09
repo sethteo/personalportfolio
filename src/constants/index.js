@@ -1,9 +1,9 @@
 import { AlwaysStencilFunc } from "three";
 import {
-    mobile,
-    backend,
-    creator,
-    web,
+    data,
+    partnership,
+    idea,
+    statistics,
 
     java,
     javascript,
@@ -19,8 +19,7 @@ import {
     nus,
     acs,
     orbital,
-    eatalreadynot
-
+    eatalreadynot,
   } from "../assets";
   
   export const navLinks = [
@@ -43,22 +42,22 @@ import {
   ];
   
   const services = [
-    // {
-    //   title: "Aspiring Web Developer",
-    //   icon: web,
-    // },
-    // {
-    //   title: "Team Player",
-    //   icon: mobile,
-    // },
-    // {
-    //   title: "Results Driven",
-    //   icon: backend,
-    // },
-    // {
-    //   title: "Problem Solver",
-    //   icon: creator,
-    // },
+    {
+      title: "Aspiring Web Developer",
+      icon: data,
+    },
+    {
+      title: "Team Player",
+      icon: partnership,
+    },
+    {
+      title: "Attention To Detail",
+      icon: statistics,
+    },
+    {
+      title: "Problem Solver",
+      icon: idea,
+    },
   ];
   
   const technologies = [
@@ -165,6 +164,10 @@ import {
           name: "react",
           color: "pink-text-gradient",
         },
+        {
+          name: "telegram",
+          color: "orange-text-gradient"
+        },
       ],
       image: orbital,
       source_code_link: "https://github.com/",
@@ -184,8 +187,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "bootstrap",
           color: "pink-text-gradient",
+        },
+        {
+          name: "expressjs",
+          color: "orange-text-gradient"
         },
       ],
       image: eatalreadynot,

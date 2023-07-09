@@ -12,7 +12,7 @@ const ServiceCard = ({index, title, icon}) => {
     <Tilt className='xs:w-[250px] w-full'>
       <motion.div
         variants={fadeIn("right", "spring", 0.5*index, 0.75)}
-        className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+        className='w-full blue-gradient p-[1px] rounded-[20px] shadow-card'
       >
         <div
           options={{
@@ -44,11 +44,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        As a student majoring in Information Systems, 
-        I have a passion for technology and its potential to change the world. 
+        Currently a Year 2 student majoring in Information Systems 
+        with a passion for technology and its potential to change the world. 
         I am always eager to learn and challenge myself, whether it's through taking 
-        on new coding projects, participating in hackathons, or attending industry 
-        conferences. I am excited about the future of technology and look forward to 
+        on new coding projects, participating in hackathons, or bettering myself through courses. 
+        I am excited about the future of technology and look forward to 
         contributing to its continued growth and innovation.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>

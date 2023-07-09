@@ -1,5 +1,5 @@
 import ShibaCanvas from "./Shiba";
 import BallCanvas from "./Ball";
-import ComputersCanvas from "./Computers";
+import DuckCanvas from "./Duck";
 
-export { ShibaCanvas, BallCanvas, ComputersCanvas };
+export { ShibaCanvas, BallCanvas, DuckCanvas };

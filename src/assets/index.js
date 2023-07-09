@@ -1,8 +1,9 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import data from './data.png'
+import partnership from './partnership.png'
+import idea from './idea.png'
+import statistics from './statistics.png'
+
 import github from "./github.png";
 import youtube from "./youtube.png";
 import menu from "./menu.svg";
@@ -33,10 +34,11 @@ import email from './contact/email.png'
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
+  data,
+  partnership,
+  idea,
+  statistics,
+
   github,
   youtube,
   menu,
