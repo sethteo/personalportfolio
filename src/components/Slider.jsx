@@ -7,13 +7,15 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-const images = [
-    'src/assets/images/IMG_6404.JPG',
-    'src/assets/images/IMG_5932.jpeg',
-    'src/assets/images/IMG_4557.jpeg',
-    'src/assets/images/GPTempDownload 11.JPG',
-    'src/assets/images/90F9D37A-7267-495A-B392-621574A1A207.jpg',
-]
+import {
+    image1,
+    image2,
+    image3,
+    image4,
+    image5,
+    image6,
+  
+  } from "../assets";
 
 function Slider() {
     return (
@@ -23,40 +25,53 @@ function Slider() {
             slidesPerView={1}
             navigation
             pagination={{ clickable: true }}
+            breakpoints={
+                {
+                    0: {
+                      slidesPerView: 1,
+                    },
+                    768: {
+                      slidesPerView: 2,
+                    },
+                    1200: {
+                      slidesPerView: 3,
+                    },
+                  }
+            }
             className="mt-5 "
         >
             <SwiperSlide>
-                <img src='src/assets/images/GPTempDownload 11.JPG' alt="" style={{
+                <img src={image1} alt="" style={{
                     width: "100%", height:
                         "50vh"
                 }} />
             </SwiperSlide>
             <SwiperSlide>
-                <img src='src/assets/images/IMG_6404.JPG' alt="" style={{
+                <img src={image2} alt="" style={{
                     width: "100%", height:
                         "50vh"
                 }} />
             </SwiperSlide>
             <SwiperSlide>
-                <img src='src/assets/images/IMG_5932.jpeg' alt="" style={{
+                <img src={image3} alt="" style={{
                     width: "100%", height:
                         "50vh"
                 }} />
             </SwiperSlide>
             <SwiperSlide>
-                <img src='src/assets/images/IMG_4557.jpeg' alt="" style={{
+                <img src={image4} alt="" style={{
                     width: "100%", height:
                         "50vh"
                 }} />
             </SwiperSlide>
             <SwiperSlide>
-                <img src='src/assets/images/IMG_6100.jpeg' alt="" style={{
+                <img src={image5} alt="" style={{
                     width: "100%", height:
                         "50vh"
                 }} />
             </SwiperSlide>
             <SwiperSlide>
-                <img src='src/assets/images/90F9D37A-7267-495A-B392-621574A1A207.jpg' alt="" style={{
+                <img src={image6} alt="" style={{
                     width: "100%", height:
                         "50vh"
                 }} />
