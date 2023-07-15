@@ -10,6 +10,13 @@ import cooking from './hobbies/cooking.png'
 import gymming from './hobbies/gymming.png'
 import experience from './hobbies/experience.png'
 
+import image1 from './images/GPTempDownload 11.png'
+import image2 from './images/IMG_6404.png'
+import image3 from './images/IMG_5932.png'
+import image4 from './images/IMG_4557.png'
+import image5 from './images/IMG_6100.png'
+import image6 from './images/90F9D37A-7267-495A-B392-621574A1A207.png'
+
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -43,6 +50,13 @@ export {
   partnership,
   idea,
   statistics,
+
+  image1,
+  image2,
+  image3,
+  image4,
+  image5,
+  image6,
 
   swimming,
   gymming,
