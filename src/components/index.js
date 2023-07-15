@@ -7,6 +7,7 @@ import Experience from './Experience';
 import Projects from './Projects';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
+import Hobbies from './Hobbies';
 
 export {
   Hero,
@@ -20,4 +21,5 @@ export {
   ShibaCanvas, 
   BallCanvas, 
   DuckCanvas, 
+  Hobbies
 }

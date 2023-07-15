@@ -1,11 +1,15 @@
 import logo from "./logo.svg";
-import data from './data.png'
-import partnership from './partnership.png'
-import idea from './idea.png'
-import statistics from './statistics.png'
 
-import github from "./github.png";
-import youtube from "./youtube.png";
+import data from './aboutpage/data.png'
+import partnership from './aboutpage/partnership.png'
+import idea from './aboutpage/idea.png'
+import statistics from './aboutpage/statistics.png'
+
+import swimming from './hobbies/swimming.png'
+import cooking from './hobbies/cooking.png'
+import gymming from './hobbies/gymming.png'
+import experience from './hobbies/experience.png'
+
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -23,9 +27,10 @@ import mysql from "./tech/mysql.png";
 import nus from "./company/nus.png";
 import acs from "./company/acs.png";
 
-
-import orbital from "./orbital.png"
-import eatalreadynot from "./eatalreadynot.png"
+import github from "./projectimages/github.png";
+import youtube from "./projectimages/youtube.png";
+import orbital from "./projectimages/orbital.png"
+import eatalreadynot from "./projectimages/eatalreadynot.png"
 
 import instagram from './contact/instagram.png'
 import linkedin from './contact/linkedin.png'
@@ -38,6 +43,11 @@ export {
   partnership,
   idea,
   statistics,
+
+  swimming,
+  gymming,
+  cooking,
+  experience,
 
   github,
   youtube,

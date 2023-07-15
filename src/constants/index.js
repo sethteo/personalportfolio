@@ -5,6 +5,11 @@ import {
     idea,
     statistics,
 
+    swimming,
+    gymming,
+    cooking,
+    experience,
+
     java,
     javascript,
     html,
@@ -146,11 +151,29 @@ import {
     // },
   ];
   
+  const hobbies = [
+    {
+      title: "Swimming",
+      icon: swimming,
+    },
+    {
+      title: "Gymming",
+      icon: gymming,
+    },
+    {
+      title: "Cooking",
+      icon: cooking,
+    },
+    {
+      title: "Adventures",
+      icon: experience,
+    },
+  ]
   const projects = [
     {
       name: "AlertUs",
       description:
-        "A telegram bot which helps users track the prices of their groceries as well as full integration with web platform. Features of the telegram bot include simple prompts with a detailed guide and full CRUD capabilities.",
+        "My NUS Orbital project, a telegram bot which helps users track the prices of their groceries. Features of the telegram bot include simple prompts, detailed step by step instructions, price against time plot of your items and daily price monitoring.",
       tags: [
         {
           name: "python",
@@ -176,7 +199,7 @@ import {
     {
       name: "EatAlreadyNot",
       description:
-        "Personal side project which houses food recommendations from users where users can post locations or leave reviews on posted places. Website features includes full CRUD capabilities, an interactive map, user registration and user authentication/authorisation."  ,
+        "Personal project inspired by my love for food as well as development. The website houses food recommendations where users can post locations or leave reviews on posted places. The website features includes full CRUD capabilities, an interactive map, user registration and user authentication/authorisation."  ,
       tags: [
         {
           name: "node.js",
@@ -201,4 +224,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, hobbies };
