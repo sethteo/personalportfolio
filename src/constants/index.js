@@ -60,7 +60,7 @@ import {
       icon: statistics,
     },
     {
-      title: "Problem Solver",
+      title: "Problem Solving",
       icon: idea,
     },
   ];
