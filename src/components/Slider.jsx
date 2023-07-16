@@ -7,6 +7,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
+
 import {
     image1,
     image2,
@@ -14,6 +15,13 @@ import {
     image4,
     image5,
     image6,
+    image7,
+    image8,
+    image9,
+    image10,
+    image11,
+    image12,
+    image13,
   
   } from "../assets";
 
@@ -72,6 +80,48 @@ function Slider() {
             </SwiperSlide>
             <SwiperSlide>
                 <img src={image6} alt="" style={{
+                    width: "100%", height:
+                        "50vh"
+                }} />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src={image7} alt="" style={{
+                    width: "100%", height:
+                        "50vh"
+                }} />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src={image8} alt="" style={{
+                    width: "100%", height:
+                        "50vh"
+                }} />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src={image9} alt="" style={{
+                    width: "100%", height:
+                        "50vh"
+                }} />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src={image10} alt="" style={{
+                    width: "100%", height:
+                        "50vh"
+                }} />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src={image11} alt="" style={{
+                    width: "100%", height:
+                        "50vh"
+                }} />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src={image12} alt="" style={{
+                    width: "100%", height:
+                        "50vh"
+                }} />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src={image13} alt="" style={{
                     width: "100%", height:
                         "50vh"
                 }} />

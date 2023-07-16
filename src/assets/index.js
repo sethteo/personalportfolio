@@ -11,11 +11,19 @@ import gymming from './hobbies/gymming.png'
 import experience from './hobbies/experience.png'
 
 import image1 from './images/GPTempDownload 11.png'
-import image2 from './images/IMG_6404.png'
-import image3 from './images/IMG_5932.png'
-import image4 from './images/IMG_4557.png'
-import image5 from './images/IMG_6100.png'
-import image6 from './images/90F9D37A-7267-495A-B392-621574A1A207.png'
+import image2 from './images/IMG_3266.png'
+import image3 from './images/IMG_6404.png'
+import image5 from './images/43DAA6FC-1E56-4B4A-867C-640A556800C4.png'
+import image6 from './images/7D78D218-72C8-4064-8028-70DB73A3AE29.png'
+import image4 from './images/e0168524-362d-400b-8401-7402515090f0.png'
+import image7 from './images/IMG_2986.png'
+import image8 from './images/IMG_6095.png'
+import image9 from './images/IMG_5641.png'
+import image10 from './images/IMG_5601.png'
+import image11 from './images/IMG_6199.png'
+import image12 from './images/IMG_6679.png'
+import image13 from './images/IMG_7008.png'
+
 
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -57,6 +65,13 @@ export {
   image4,
   image5,
   image6,
+  image7,
+  image8,
+  image9,
+  image10,
+  image11,
+  image12,
+  image13,
 
   swimming,
   gymming,

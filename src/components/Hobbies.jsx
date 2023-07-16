@@ -52,10 +52,12 @@ const Hobbies = () => {
         </motion.p>
       </div>
       <Slider/>
-      <div className='mt-20 flex flex-wrap gap-10 justify-center'>
-        {hobbies.map((service, index) => (
+      <div className='grid grid-cols-2 gap-10 mt-10 lg:flex justify-center'>
+      {hobbies.map((service, index) => (
+        <div className="flex justify-center">
           <HobbyCard key={hobbies.title} index={index} {...service} />
-        ))}
+        </div>
+      ))}
       </div>
     </>
   );
