@@ -45,11 +45,10 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I am currently a Year 2 National University of Singapore student majoring in Information Systems 
-        with a passion for technology and its potential to change the world. 
-        I am always eager to learn and challenge myself, whether it's through taking 
-        on new coding projects or bettering myself through courses. Call it foolhardy but I always
-        persevere through my obstacles with hardwork and determination. I am awestruck by the benefits
-        technology has brought us and am excited to be a part of it all.
+        with a strong passion for technology and its potential to change the world. 
+        I am always eager to learn and challenge myself, whether it involves taking on new coding projects or pursuing further education through courses. Call it foolhardy but I always
+        persevere through my obstacles and approach them with hard work and determination, refusing to give up. I am truly awestruck by the immense benefits
+         that technology has brought to our lives, and I am incredibly excited to be a part of this ever-evolving field.
         
         
       </motion.p>
