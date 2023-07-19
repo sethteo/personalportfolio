@@ -24,8 +24,8 @@ import {
     image11,
     image12,
     image13,
-  
-  } from "../assets";
+
+} from "../assets";
 
 function Slider() {
     return (
@@ -38,92 +38,53 @@ function Slider() {
             breakpoints={
                 {
                     0: {
-                      slidesPerView: 1,
+                        slidesPerView: 1,
                     },
                     768: {
-                      slidesPerView: 3,
+                        slidesPerView: 3,
                     },
-                  }
+                }
             }
             className="mt-5 "
         >
             <SwiperSlide>
-                <img src={image1} alt="" style={{
-                    width: "100%", height:
-                        "50vh"
-                }} />
+                <img src={image1} alt="image1" className="rounded-lg h-96 w-full lg:h-[50vh]" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={image2} alt="" style={{
-                    width: "100%", height:
-                        "50vh"
-                }} />
+                <img src={image2} alt="image2" className="rounded-lg h-96 w-full lg:h-[50vh]" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={image3} alt="" style={{
-                    width: "100%", height:
-                        "50vh"
-                }} />
+                <img src={image3} alt="image3" className="rounded-lg h-96 w-full lg:h-[50vh]" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={image4} alt="" style={{
-                    width: "100%", height:
-                        "50vh"
-                }} />
+                <img src={image4} alt="image4" className="rounded-lg h-96 w-full lg:h-[50vh]" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={image5} alt="" style={{
-                    width: "100%", height:
-                        "50vh"
-                }} />
+                <img src={image5} alt="image5" className="rounded-lg h-96 w-full lg:h-[50vh]" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={image6} alt="" style={{
-                    width: "100%", height:
-                        "50vh"
-                }} />
+                <img src={image6} alt="image6" className="rounded-lg h-96 w-full lg:h-[50vh]" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={image7} alt="" style={{
-                    width: "100%", height:
-                        "50vh"
-                }} />
+                <img src={image7} alt="image7" className="rounded-lg h-96 w-full lg:h-[50vh]" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={image8} alt="" style={{
-                    width: "100%", height:
-                        "50vh"
-                }} />
+                <img src={image8} alt="image8" className="rounded-lg h-96 w-full lg:h-[50vh]" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={image9} alt="" style={{
-                    width: "100%", height:
-                        "50vh"
-                }} />
+                <img src={image9} alt="image9" className="rounded-lg h-96 w-full lg:h-[50vh]" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={image10} alt="" style={{
-                    width: "100%", height:
-                        "50vh"
-                }} />
+                <img src={image10} alt="image10" className="rounded-lg h-96 w-full lg:h-[50vh]" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={image11} alt="" style={{
-                    width: "100%", height:
-                        "50vh"
-                }} />
+                <img src={image11} alt="image11" className="rounded-lg h-96 w-full lg:h-[50vh]" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={image12} alt="" style={{
-                    width: "100%", height:
-                        "50vh"
-                }} />
+                <img src={image12} alt="image12" className="rounded-lg h-96 w-full lg:h-[50vh]" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={image13} alt="" style={{
-                    width: "100%", height:
-                        "50vh"
-                }} />
+                <img src={image13} alt="image13" className="rounded-lg h-96 w-full lg:h-[50vh]" />
             </SwiperSlide>
         </Swiper>
     )

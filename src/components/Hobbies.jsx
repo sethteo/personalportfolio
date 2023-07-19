@@ -24,11 +24,11 @@ const HobbyCard = ({index, title, icon}) => {
               speed: 450
             }}
             className='bg-tertiary rounded-[20px] 
-            py-5 px-12 min-h-[150px] flex 
+            py-5 px-12 md:min-h-[150px] flex 
             justify-evenly items-center flex-col'
           >
-            <img src={icon} alt={title} className='w-12 h-12 object-contain' />
-            <h3 className='text-white text-[18px] font-bold text-center'>{title}</h3>
+            <img src={icon} alt={title} className='md:w-12 md:h-12 object-contain h-10 w-10' />
+            <h3 className='text-white md:text-[18px] font-bold text-center text-[12px] mt-1'>{title}</h3>
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@ const Hobbies = () => {
         </motion.p>
       </div>
       <Slider/>
-      <div className='grid grid-cols-2 gap-10 mt-10 lg:flex justify-center'>
+      <div className='grid grid-cols-2 gap-10 sm:mt-10 mt-5 lg:flex justify-center'>
       {hobbies.map((service, index) => (
         <div className="flex justify-center">
           <HobbyCard key={hobbies.title} index={index} {...service} />

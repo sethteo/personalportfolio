@@ -52,6 +52,8 @@ import linkedin from './contact/linkedin.png'
 import githublogo from './contact/github-sign.png'
 import email from './contact/email.png'
 
+import resume from './Teo Hong Rui Resume.pdf'
+
 export {
   logo,
   data,
@@ -103,4 +105,6 @@ export {
   linkedin,
   githublogo,
   email,
+
+  resume,
 };
