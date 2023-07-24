@@ -25,6 +25,7 @@ import {
     acs,
     orbital,
     eatalreadynot,
+    btt,
   } from "../assets";
   
   export const navLinks = [
@@ -193,7 +194,7 @@ import {
         },
       ],
       image: orbital,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/sethteo/Orbital23-AlertUs",
       video_link: 'https://youtu.be/HoaIgLHGnmI',
     },
     {
@@ -221,6 +222,32 @@ import {
       image: eatalreadynot,
       source_code_link: "https://github.com/sethteo/eatalreadynot",
       video_link: 'https://www.youtube.com/watch?v=Po_uEgnDDRo',
+    },
+    {
+      name: "BTT/FTT Quiz App",
+      description:
+        "Gamified quiz website developed to practice both my web development and my Basic Theory Test. The website houses over 300 questions ranging from BTT to FTT as well as a page which answers FAQ beginners might face whilst learning driving.",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "html",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "orange-text-gradient"
+        },
+      ],
+      image: btt,
+      source_code_link: "https://github.com/sethteo/btt_quiz",
+      video_link: '',
     },
   ];
   

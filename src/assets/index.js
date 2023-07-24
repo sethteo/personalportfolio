@@ -46,6 +46,7 @@ import github from "./projectimages/github.png";
 import youtube from "./projectimages/youtube.png";
 import orbital from "./projectimages/orbital.png"
 import eatalreadynot from "./projectimages/eatalreadynot.png"
+import btt from './projectimages/btt.png'
 
 import instagram from './contact/instagram.png'
 import linkedin from './contact/linkedin.png'
@@ -100,6 +101,7 @@ export {
   acs,
   orbital,
   eatalreadynot,
+  btt,
 
   instagram,
   linkedin,
