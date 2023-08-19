@@ -131,7 +131,8 @@ import {
       iconBg: "#383E56",
       date: "Aug 2022 -  Aug 2026",
       points: [
-        "Current CGPA: 4.69",
+        "Current GPA: 4.69 (First Class Honours)",
+        "Teaching Assistant for CS1010J Programming Methodology I AY23/24",
         "Notable modules taken:",
         "CS2030 Programming Methodology II",
         "BT2102 Data Management and Visualisation",
