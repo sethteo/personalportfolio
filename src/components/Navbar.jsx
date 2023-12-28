@@ -78,7 +78,7 @@ const Navbar = () => {
               <li
                 className={`text-secondary font-poppins font-medium cursor-pointer text-[16px]`}
               >
-                <a href={resume}>Resume</a>
+                <a href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
               </li>
             </ul>
           </div>

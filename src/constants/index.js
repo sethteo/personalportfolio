@@ -125,19 +125,15 @@ import {
       ],
     },
     {
-      title: "Bachelor in Computing",
+      title: "Bachelor in Computing, Computer Science",
       company_name: "National University of Singapore",
       icon: nus,
       iconBg: "#383E56",
       date: "Aug 2022 -  Aug 2026",
       points: [
-        "Current GPA: 4.69 (First Class Honours)",
+        "GPA: First Class Honours",
         "Teaching Assistant for CS1010J Programming Methodology I AY23/24",
-        "Notable modules taken:",
-        "CS2030 Programming Methodology II",
-        "BT2102 Data Management and Visualisation",
-        "CS1010J Programming Methodology I",
-        "BT1101 Introduction to Business Analytics",
+        "Teaching Assistant for CS2040 Data Structures & Algorithms AY23/24",
       ],
     },
   ];
