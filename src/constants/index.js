@@ -1,4 +1,3 @@
-import { AlwaysStencilFunc } from "three";
 import {
     data,
     partnership,
@@ -23,6 +22,7 @@ import {
 
     nus,
     acs,
+    dso,
     orbital,
     eatalreadynot,
     btt,
@@ -132,8 +132,22 @@ import {
       date: "Aug 2022 -  Aug 2026",
       points: [
         "GPA: First Class Honours",
-        "Teaching Assistant for CS1010J Programming Methodology I AY23/24",
-        "Teaching Assistant for CS2040 Data Structures & Algorithms AY23/24",
+        "Teaching Assistant for CS1010J Programming Methodology I AY23/24, AY24/25",
+        "Teaching Assistant for CS2040 Data Structures & Algorithms AY23/24, AY24/25",
+      ],
+    },
+
+    {
+      title: "Software Engineer Intern",
+      company_name: "DSO National Laboratories",
+      icon: dso,
+      iconBg: "#383E56",
+      date: "May 2024 -  Aug 2024",
+      points: [
+        "Developed and deployed a conversational AI chatbot in Microsoft Teams chatbot to be used by internal employees.",
+        "Utilised RAG to enable the bot to extract information directly from internal company documents, facilitating real-time data retrieval.",
+        "Integrated custom LLM model used by the company to be used by the chatbot.",
+        "Documented the development process to facilitate future development and enhancements.",
       ],
     },
   ];
@@ -141,11 +155,11 @@ import {
   const testimonials = [
     // {
     //   testimonial:
-    //     "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    //   name: "Sara Lee",
-    //   designation: "CFO",
-    //   company: "Acme Co",
-    //   image: "https://randomuser.me/api/portraits/women/4.jpg",
+    //     "",
+    //   name: "",
+    //   designation: "",
+    //   company: "",
+    //   image: "",
     // },
   ];
   
@@ -171,7 +185,7 @@ import {
     {
       name: "AlertUs",
       description:
-        "My NUS Orbital project, a telegram bot which helps users track the prices of their groceries. Features of the telegram bot include simple prompts, detailed step by step instructions, price against time plot of your items and daily price monitoring.",
+        "Developed and deployed a telegram bot which helps users track the prices of their groceries. Features of the telegram bot include simple prompts, detailed step by step instructions, price against time plot of your items and daily price monitoring.",
       tags: [
         {
           name: "python",
@@ -220,32 +234,33 @@ import {
       source_code_link: "https://github.com/sethteo/eatalreadynot",
       video_link: 'https://www.youtube.com/watch?v=Po_uEgnDDRo',
     },
-    {
-      name: "BTT/FTT Quiz App",
-      description:
-        "Gamified quiz website developed to practice both my web development and my Basic Theory Test. The website houses over 300 questions ranging from BTT to FTT as well as a page which answers FAQ beginners might face whilst learning driving.",
-      tags: [
-        {
-          name: "javascript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "html",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "bootstrap",
-          color: "orange-text-gradient"
-        },
-      ],
-      image: btt,
-      source_code_link: "https://github.com/sethteo/btt_quiz",
-      video_link: '',
-    },
+
+    // {
+    //   name: "BTT/FTT Quiz App",
+    //   description:
+    //     "Gamified quiz website developed to practice both my web development and my Basic Theory Test. The website houses over 300 questions ranging from BTT to FTT as well as a page which answers FAQ beginners might face whilst learning driving.",
+    //   tags: [
+    //     {
+    //       name: "javascript",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "html",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "bootstrap",
+    //       color: "orange-text-gradient"
+    //     },
+    //   ],
+    //   image: btt,
+    //   source_code_link: "https://github.com/sethteo/btt_quiz",
+    //   video_link: '',
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects, hobbies };

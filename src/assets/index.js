@@ -41,6 +41,7 @@ import mysql from "./tech/mysql.png";
 
 import nus from "./company/nus.png";
 import acs from "./company/acs.png";
+import dso from "./company/dso.png";
 
 import github from "./projectimages/github.png";
 import youtube from "./projectimages/youtube.png";
@@ -99,6 +100,7 @@ export {
 
   nus,
   acs,
+  dso,
   orbital,
   eatalreadynot,
   btt,

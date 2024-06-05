@@ -44,13 +44,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am currently a Year 2 National University of Singapore student majoring in Computer Science 
+        I am currently a Year 3 National University of Singapore student majoring in Computer Science 
         with a strong passion for technology and its potential to change the world. 
-        I am always eager to learn and challenge myself, whether it involves taking on new coding projects or pursuing further education through courses. Call it foolhardy but I always
-        persevere through my obstacles and approach them with hard work and determination, refusing to give up. I am truly awestruck by the immense benefits
+        I am always eager to learn and challenge myself, whether it involves taking on new coding projects or pursuing further education through courses. I am truly awestruck by the immense benefits
          that technology has brought to our lives, and I am incredibly excited to be a part of this ever-evolving field.
-        
-        
+                
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

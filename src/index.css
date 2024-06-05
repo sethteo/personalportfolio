@@ -33,15 +33,55 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.blue-gradient {
+element.style {
+  justify-content: center;
+  padding-bottom: 50px;
+}
 
-  /* background: rgb(27, 27, 79) 11.2%;
-  background: linear-gradient(109.6deg, rgb(27, 27, 79) 11.2%, rgb(120, 201, 244) 100.2%);
-  background: -webkit-linear-gradient(
-    -90deg,
-    rgb(27, 27, 79) 11.2%,
-    rgb(120, 201, 244) 100.2%
-  ); */
+.col-6 {
+  flex: 0 0 auto;
+  width: 5%;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(var(--bs-gutter-x)* -.5);
+  margin-right: calc(var(--bs-gutter-x)* -.5);
+  margin-top: calc(var(--bs-gutter-y)* -1);
+  justify-content: center;
+}
+
+.tech-icons {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(46, 122, 255, 0.833) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+.tech-icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(0, 163, 243, 0.833) !important;
+}
+.tech-icon-images {
+  padding: 20px !important;
+  line-height: 1.6 !important;
+}
+
+.blue-gradient {
   background: rgb(39,55,77);
   background: linear-gradient(90deg, rgba(39,55,77,1) 0%, rgba(82,109,130,1) 40%, rgba(221,230,237,1) 100%);
   background: -webkit-linear-gradient(
