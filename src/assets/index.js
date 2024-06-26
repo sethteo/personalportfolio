@@ -4,6 +4,7 @@ import data from './aboutpage/data.png'
 import partnership from './aboutpage/partnership.png'
 import idea from './aboutpage/idea.png'
 import statistics from './aboutpage/statistics.png'
+import learning from './aboutpage/learning.png'
 
 import swimming from './hobbies/swimming.png'
 import cooking from './hobbies/cooking.png'
@@ -28,17 +29,6 @@ import image13 from './images/IMG_7008.png'
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import java from "./tech/java.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import python from "./tech/python.png";
-import mysql from "./tech/mysql.png";
-
 import nus from "./company/nus.png";
 import acs from "./company/acs.png";
 import dso from "./company/dso.png";
@@ -62,6 +52,7 @@ export {
   partnership,
   idea,
   statistics,
+  learning,
 
   image1,
   image2,
@@ -86,17 +77,6 @@ export {
   youtube,
   menu,
   close,
-
-  css,
-  git,
-  html,
-  java,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  python,
-  mysql,
 
   nus,
   acs,

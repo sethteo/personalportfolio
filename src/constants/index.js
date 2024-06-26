@@ -3,22 +3,12 @@ import {
     partnership,
     idea,
     statistics,
+    learning,
 
     swimming,
     gymming,
     cooking,
     experience,
-
-    java,
-    javascript,
-    html,
-    css,
-    reactjs,
-    nodejs,
-    mongodb,
-    git,
-    python,
-    mysql,
 
     nus,
     acs,
@@ -57,56 +47,13 @@ import {
       icon: partnership,
     },
     {
-      title: "Attention To Detail",
-      icon: statistics,
+      title: "Quick Thinker",
+      icon: learning,
     },
     {
-      title: "Problem Solving",
+      title: "Problem Solver",
       icon: idea,
     },
-  ];
-  
-  const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "Java",
-      icon: java,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "Python",
-      icon: python,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "MySQL",
-      icon: mysql,
-    },
-    {
-      name: "git",
-      icon: git,
-    }
   ];
   
   const experiences = [
@@ -144,9 +91,9 @@ import {
       iconBg: "#383E56",
       date: "May 2024 -  Aug 2024",
       points: [
-        "Developed and deployed a conversational AI chatbot in Microsoft Teams chatbot to be used by internal employees.",
-        "Utilised RAG to enable the bot to extract information directly from internal company documents, facilitating real-time data retrieval.",
-        "Integrated custom LLM model used by the company to be used by the chatbot.",
+        "Developed and deployed a conversational AI chatbot in Microsoft Teams to be used by internal employees.",
+        "Utilised RAG to enable the bot to extract information directly from internal company database, facilitating real-time data retrieval.",
+        "Integrated custom LLM used by the company to be used by the chatbot.",
         "Documented the development process to facilitate future development and enhancements.",
       ],
     },
@@ -263,4 +210,4 @@ import {
     // },
   ];
   
-  export { services, technologies, experiences, testimonials, projects, hobbies };
+  export { services, experiences, testimonials, projects, hobbies };

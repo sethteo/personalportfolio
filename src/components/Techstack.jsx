@@ -12,6 +12,7 @@ import {
   DiMysql,
   DiGit,
 } from "react-icons/di";
+import { VscAzure } from "react-icons/vsc";
 
 const Techstack = () => {
   return (
@@ -45,6 +46,9 @@ const Techstack = () => {
       </Col>
       <Col xs={3} md={2} className="tech-icons">
         <DiGit />
+      </Col>
+      <Col xs={3} md={2} className="tech-icons">
+        <VscAzure />
       </Col>
     </Row>
   );
