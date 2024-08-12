@@ -91,7 +91,7 @@ import {
       iconBg: "#383E56",
       date: "May 2024 -  Aug 2024",
       points: [
-        "Developed and deployed a conversational AI chatbot in Microsoft Teams to be used by over 500 internal employees.",
+        "Developed and deployed a conversational AI chatbot utilising Azure services to be eventually utilised by over 500 internal employees.",
         "Implemented Retrival Augemented Generation (RAG) to enable the bot to extract information directly from internal company documents, facilitating real-time data retrieval.",
         "Integrated logging into a private database to support error resolution and maintain conversation history.",
         "Engineered a scalable deployment pipeline to allow for seemless future deployments and updates.",
