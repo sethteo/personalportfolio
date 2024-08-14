@@ -1,4 +1,4 @@
-import { ShibaCanvas, DuckCanvas } from './canvas';
+import { PhoneCanvas, DuckCanvas } from './canvas';
 import Hero from './Hero';
 import Navbar from './Navbar';
 import About from './About';
@@ -16,7 +16,7 @@ export {
   Projects,
   Feedbacks,
   Contact,
-  ShibaCanvas, 
+  PhoneCanvas, 
   DuckCanvas, 
   Hobbies
 }

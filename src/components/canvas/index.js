@@ -1,4 +1,4 @@
-import ShibaCanvas from "./Shiba";
 import DuckCanvas from "./Duck";
+import PhoneCanvas from "./Phone"
 
-export { ShibaCanvas, DuckCanvas };
+export { DuckCanvas, PhoneCanvas };
