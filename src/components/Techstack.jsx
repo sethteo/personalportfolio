@@ -11,6 +11,7 @@ import {
   DiMongodb,
   DiMysql,
   DiGit,
+  DiPostgresql,
 } from "react-icons/di";
 import { VscAzure } from "react-icons/vsc";
 
@@ -43,6 +44,9 @@ const Techstack = () => {
       </Col>
       <Col xs={3} md={2} className="tech-icons">
         <DiMysql />
+      </Col>
+      <Col xs={3} md={2} className="tech-icons">
+        <DiPostgresql />
       </Col>
       <Col xs={3} md={2} className="tech-icons">
         <DiGit />
